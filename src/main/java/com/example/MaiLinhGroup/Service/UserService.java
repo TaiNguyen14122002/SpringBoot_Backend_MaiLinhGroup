@@ -8,4 +8,6 @@ public interface UserService {
     List<User> getAllUser();
 
     User findUserProfileByJwt(String jwt)throws Exception;
+
+    User registerUser(String userId, String password);
 }
