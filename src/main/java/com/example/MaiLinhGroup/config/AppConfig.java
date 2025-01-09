@@ -40,7 +40,8 @@ public class AppConfig {
                 CorsConfiguration config = new CorsConfiguration();
                 config.setAllowedOrigins(Arrays.asList(
                         "http://localhost:5173",
-                        "https://tainguyendeloy.vercel.app"
+                        "https://tainguyendeloy.vercel.app",
+                        "*"
 
                 ));
 
